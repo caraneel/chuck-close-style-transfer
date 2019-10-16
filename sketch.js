@@ -14,7 +14,7 @@ let video;
 let resultImg;
 
 function setup() {
-  createCanvas(320, 240).parent('canvasContainer');
+  createCanvas(600, 900).parent('canvasContainer');
 
   video = createCapture(VIDEO);
   video.hide();
@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw(){
-  image(resultImg, 0, 0, 320, 240);
+  image(resultImg, 0, 0, 600, 900);
 }
 
 // A function to call when the model has been loaded.
